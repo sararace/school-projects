@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormArtActivity" >
+
+<RadioGroup
+    android:id="@+id/radioGroup1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dip"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/radio0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dip" />
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RadioGroup>
+
+<CheckBox
+    android:id="@+id/check0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/radioGroup1"
+    android:layout_marginRight="20dp"
+    android:layout_toLeftOf="@+id/radioGroup1" />
+<CheckBox
+    android:id="@+id/check1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/radioGroup1"
+    android:layout_marginBottom="16dp"
+    android:layout_toLeftOf="@+id/radioGroup1" />
+<CheckBox
+    android:id="@+id/check2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/check1"
+    android:layout_alignLeft="@+id/radioGroup1"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="14dp" />
+<CheckBox
+    android:id="@+id/check3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/radioGroup1"
+    android:layout_centerHorizontal="true" />
+<CheckBox
+    android:id="@+id/check4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/check5"
+    android:layout_alignRight="@+id/radioGroup1"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="14dp" />
+<CheckBox
+    android:id="@+id/check5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/radioGroup1"
+    android:layout_marginBottom="16dp"
+    android:layout_toRightOf="@+id/radioGroup1" />
+<CheckBox
+    android:id="@+id/check6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/radioGroup1"
+    android:layout_marginLeft="20dp"
+    android:layout_toRightOf="@+id/radioGroup1" />
+
+<NumberPicker
+    android:id="@+id/numberPicker1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/check0"
+    android:layout_alignRight="@+id/check6"
+    android:layout_below="@+id/check0"
+    android:layout_marginTop="20dp" >
+</NumberPicker>
+
+<CheckBox
+    android:id="@+id/leftAntenna"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/check1"
+    android:layout_alignLeft="@+id/check0" />
+<CheckBox
+    android:id="@+id/rightAntenna"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/check5"
+    android:layout_alignRight="@+id/check6" />
+
+<Button
+    android:id="@+id/leftLeg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/numberPicker1"
+    android:layout_marginTop="17dp"
+    android:layout_toLeftOf="@+id/check3"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp" />
+<Button
+    android:id="@+id/rightLeg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/numberPicker1"
+    android:layout_marginTop="17dp"
+    android:layout_toRightOf="@+id/check3"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:text="@string/submit"
+    android:gravity="center" />
+<Button
+    android:id="@+id/leftArm"
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/numberPicker1"
+    android:layout_marginTop="23dp"
+    android:layout_marginRight="10dp"
+    android:layout_toLeftOf="@+id/numberPicker1"
+    android:paddingBottom="50dp" />
+<Button
+    android:id="@+id/rightArm"
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/numberPicker1"
+    android:layout_marginTop="23dp"
+    android:layout_marginLeft="10dp"
+    android:layout_toRightOf="@+id/numberPicker1"
+    android:paddingBottom="50dp"
+    android:onClick="onClick" />
+
+</RelativeLayout>

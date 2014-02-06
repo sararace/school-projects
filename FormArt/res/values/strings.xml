@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FormArt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <color name="red">#C93A2A</color>
+    <color name="orange">#FFAD46</color>
+    <color name="yellow">#FBE983</color>
+    <color name="green">#a4c739</color>
+    <color name="teal">#9FE1E7</color>
+    <color name="blue">#4185F3</color>
+    <color name="purple">#AB84E4</color>
+    <color name="pink">#F691B2</color>
+    <color name="grey">#cccccc</color>
+    <string name="submit">GO</string>
+
+</resources>
