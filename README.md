@@ -9,4 +9,4 @@ This was my final project for my ICAM 141A class (Computer Programming and the A
 
 Form Art Android App
 --------------------
-I made this application in my ICAM 141A class (Computer Programming and the Arts I). It is artwork made up of android-native form elements, inspired by [this](http://www.c3.hu/collection/form/).
+I made this application in my ICAM 141A class (Computer Programming and the Arts I). It is artwork made up of android-native form elements, inspired by [Form Art](http://www.c3.hu/collection/form/).
