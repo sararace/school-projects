@@ -18,8 +18,8 @@ These are group projects that I contrbuted to for various classes at UCSD.
 
 BidIt Android App
 -----------------
-[BidIt](https://github.com/aluon/cse190) was our final project for CSE 190 (Introduction to Mobile and Server Programming). This app would allow users to post items they wanted to sell, and other users could browse the posted items in a convenient swipable list, as well as bid on any items they liked by sending a private message to the owner.
+[BidIt](https://github.com/aluon/cse190) was our final project for CSE 190 (Introduction to Mobile and Server Programming). This app would allow users to post items they wanted to sell, and other users could browse the posted items in a convenient swipable list, as well as bid on any items they liked by sending a private message to the owner. The project was completed between January 2014 and March 2014.
 
 GymBuddy Mobile Web App
 -----------------------
-[GymBuddy](https://github.com/mkoonce/gymbuddy) was our final project for COGS 120 (Human Computer Interaction). During this project, we found a user need, tested several prototypes, then created this Node App that is optimized for use on mobile devices.
+[GymBuddy](https://github.com/mkoonce/gymbuddy) was our final project for COGS 120 (Human Computer Interaction). During this project, we found a user need, tested several prototypes, then created this Node App that is optimized for use on mobile devices. The project was completed between January 2014 and March 2014.
