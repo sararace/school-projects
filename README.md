@@ -1,7 +1,7 @@
 My Projects
 ===============
 
-My name is Sara Millar and these are projects that I have made for various classes at UCSD. These projects were written individually.
+My name is Sara Race and these are projects that I have made for various classes at UCSD. These projects were written individually.
 
 Game of Life Android App
 ------------------------
